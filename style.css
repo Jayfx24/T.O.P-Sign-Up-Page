@@ -44,4 +44,85 @@ body{
 .content{
     border: 1px solid ;
     width: 60vw;
+    /* padding:20px; */
+
+}
+
+.p-text{
+   height: 30%;
+   /* border: 1px solid; */
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   padding: 20px;
+   margin-bottom: 20px;
+
+}
+
+.p-3{
+    padding-top: 20px;
+}
+
+/* FORMS */
+
+.form{
+    /* border: 1px solid; */
+    /* height: 35%; */
+    /* padding: 20px; */
+}
+
+.form p{
+    /* padding-bottom: 15px; */
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* border: 1px solid; */
+    margin-bottom: 10px;;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    
+}
+
+form div{
+    /* border: 1px solid; */
+    padding-top:10px;
+    width: 35%;
+}
+
+form p {
+    width: 100%;
+    /* border: 1px solid; */
+  
+}
+
+input{
+    width:100%;
+    padding: 4px;
+    border-radius: 4px;
+    border: 0.5px solid black;
+    border-color: #E5E7EB;
+    
+    
+}
+
+input:focus{
+    outline: 1px solid rgb(44, 162, 192);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+input:valid{
+    outline: 1px solid rgb(31, 187, 122);
+}
+
+input[type="password"]:user-invalid{
+    outline: 1px solid rgb(211, 43, 43);
+}
+
+
+form div label{
+    font-size: .9rem;
 }
