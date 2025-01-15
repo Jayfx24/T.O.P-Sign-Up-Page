@@ -1,1 +1,1 @@
-# Sign Up page project by The Odin Project
+# Sign Up page project - The Odin's Project
