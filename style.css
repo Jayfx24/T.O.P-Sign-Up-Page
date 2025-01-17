@@ -14,10 +14,14 @@
 body{
     display: flex;
     min-width: 100%;
+    font-family: sans-serif;
+    background-color: #f1f2f3;
+    
+
 }
 
 .background-images{
-    width: 40vw;
+    width: 40%;
     overflow: hidden;
     height: 100vh;
     /* border: 1px solid; */
@@ -30,7 +34,7 @@ body{
     background-color: black;
     /* border:2px solid black; */
     position: absolute;
-    top: 100px;
+    top: 200px;
     width: 100%;
     background: rgba(0,0,0,0.5);
     display: flex;
@@ -48,33 +52,48 @@ body{
 
 }
 
+
 .logo-div::after {
-    content: 'JAY';
+    content: 'AE.O';
     color: white;
     font-size: 100px;
     font-family: Norse Bold;
 }
 
-/* content */
-.content{
-    border: 1px solid ;
-    width: 60vw;
-    /* padding:20px; */
+.s-o {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    font-size: .9rem;
+    width: 100%;
+    text-align: center
 
 }
 
+.s-o a{
+    color: white;
+    text-decoration: underline;
+}
+
+/* content */
+.content{
+    /* border: 1px solid ; */
+    width: 60%;
+
+}
+
+
 .p-text{
-   height: 30%;
+   height: 35%;
    /* border: 1px solid; */
    display: flex;
    flex-direction: column;
    justify-content: end;
-   padding: 20px;
+   padding: 20px 40px;
    margin-bottom: 20px;
-   font-family: sans-serif;
-   font-size: larger;
+   font-size: 1.5rem;
    font-weight: 600;
-   width: 60ch;
+   max-width: 60ch;
 
 }
 
@@ -101,7 +120,8 @@ form{
     /* border: 1px solid; */
     margin-bottom: 10px;;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 20px;
+    padding: 30px 40px;
+    background-color: white;
     
 }
 
@@ -113,16 +133,19 @@ form div{
 
 form p {
     width: 100%;
+    font-weight: 600;
+    font-size: 1.5rem;
     /* border: 1px solid; */
   
 }
 
 input{
     width:100%;
-    padding: 4px;
+    padding: 8px;
     border-radius: 4px;
     border: 0.5px solid black;
     border-color: #E5E7EB;
+    font-size: 1rem;
     
     
 }
@@ -144,20 +167,32 @@ input[type="password"]:user-invalid{
 
 form div label{
     font-size: .9rem;
+    /* color: #E5E7EB; */
+    letter-spacing: 2px;
 }
 
 .b-form{
-    padding-left: 20px;
+    padding-left: 40px;
+    height: 35%;
 }
 
 .btn{
-    padding: 10px 30px;
-    border-radius: 4px;
+    padding: 15px 50px;
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: 800;
     border: none;
     background-color: #596D48;
     color: white;
+    margin: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
 
+.btn:hover{
+    background-color: #708359;
+    cursor: pointer;
+}
 a{
     text-decoration: none;
     color:#596D48
